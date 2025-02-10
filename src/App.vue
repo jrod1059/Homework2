@@ -22,9 +22,23 @@ const name = ref('')
   </section>
 
   <section class ="Add to list">
+  <div class = "options">
+    <label>
+      <input type = "radio" name="category" value = "Add to list" v-model="Add_list">
+      <span class = "bubble list"></span>
+      <div>Add to List</div>
+    </label>
+    </div>
   </section>
 
   <section class ="Delete from list">
+  <div class = "options">
+    <label>
+      <input type = "radio" name="category" value = "Delete from list" v-model="Delete_list">
+      <span class = "bubble list"></span>
+      <div>Delete from List</div>
+    </label>
+    </div>
   </section>
   
 
