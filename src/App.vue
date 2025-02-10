@@ -1,7 +1,11 @@
 <script setup>
 import{ref} from 'vue'
 
+
 const name = ref('')
+
+
+
 </script>
 
 <template>
@@ -15,6 +19,7 @@ const name = ref('')
 
   <section class="Ingridients">
   <div class = "Ingridients list">
+  
 
   <input type="text" placeholder="Your Ingredients!" v-model="Your_list" />
   </div>
